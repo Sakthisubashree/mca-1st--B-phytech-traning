@@ -1,0 +1,12 @@
+#include<stdio.h>
+void greet(){
+    printf("hellow ,suba\n");
+    
+}
+int main()
+{
+    void(*func_ptr)();
+    func_ptr =greet;
+    func_ptr();
+    return 0;
+}
